@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+.icon{
+   width: 200px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: black;
+   filter: ;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation{
+   height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    font-size: 50pxpx;
+    border: 1px solid aqua;
+    /* box-shadow: 12px 12px 20px black; */
+    padding: 30px;
+}
+
+#logo-heading{
+    font-style: italic;
+   font-weight: 600;
+    font-size: 30px;
+    padding-left: 20px;
+    text-shadow: 2px 2px 10px rgb(241, 14, 14);
+}
+#logo-heading:hover{
+    transition:  1s;
+    transform: scale(1.2);
+    text-shadow: 9px 9px 3px black;
+}
+
+input{
+  width: 250px;
+  height: 30px;
+  box-shadow: 5px 5px 2px rgb(187, 182, 182);
+  padding: 10px;
+}
+
+button{
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(4, 39, 4);
+    cursor: pointer;
+    color: white;
+    transition:  1s;
+    transform: scale(1.01);
+    /* box-shadow: 9px 9px 1px black; */
+}
+
+
+.two-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.left-container{
+    width: 35%;
+    height: 100vh;
+    background-color: wheat;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: auto;
+}
+.left-container::-webkit-scrollbar{
+    display: none;
+}
+.right-container{
+    width: 65%;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+    margin-right: 10px;
+    text-align: center;
+    overflow-y: auto;
+   
+}
+.right-container::-webkit-scrollbar{
+    display: none;
+}
+
+h2{
+    font-weight: 100;
+    font-style: italic;
+    padding: 5px;
+}
+
+.leftitems{
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 4px solid black;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding: 15px;
+
+   
+}
+#Myimage{
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#Tittle{
+    width: 250px;
+
+
+}
+#Myimage:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+    cursor: pointer;
+    transition: transform 1s;
+
+}
+
+#Tittle  ,#Publish{
+    color: rgb(129, 94, 94);
+    text-shadow: 2px 2px 10px white;
+    
+}
+
+/* #Tittle ,#Publish:hover{
+    color: black;
+    text-shadow: 2px 2px 10px black;
+    transition: transform 1s;
+    
+} */
+
+a{
+    text-decoration: none;
+}
+
+#image-1{
+    margin-top: 30px;
+    width: 500;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#publish,#title,#cook,#serve{
+    text-shadow: 2px 2px 12px black;
+}
+
+.secrt{
+   font-style: normal;
+    font-size: 20px;
+    text-align: inline-block;
+}
+.botn{
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+}
+.form{
+    width: 300px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
