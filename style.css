@@ -128,7 +128,7 @@ h2 {
     border-radius: 50px;
 }
 
-/* Responsive styles for screens up to 480px */
+
 @media screen and (max-width: 480px) {
     .navigation {
         font-size: 20px;
